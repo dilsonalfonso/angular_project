@@ -3,16 +3,16 @@
         <div class="col-lg-8 offset-lg-2">
             <div class="card">
                 <div class="cart-body text-center">
-                    <span>Listado de Productos</span>
-                    <button class="btn btn-success float-end">NUEVO</button>
-                     <table class="table table-striped">
+                    <span class="titulo">Listado de Productos</span>
+                    <a class="btn btn-success float-end" routerLink="/crear-producto">NUEVO</a>
+                     <table class="table table-striped mt-3">
                         <thead>
                           <tr>
                             <th scope="col">Producto</th>
                             <th scope="col">Categoria</th>
                             <th scope="col">Ubicacion</th>
                             <th scope="col">Precio</th>
-                            <th scope="col"></th>
+                            <th scope="col">Acciones</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -21,14 +21,20 @@
                             <td>Bebida</td>
                             <td>Bogotá</td>
                             <td>3000</td>
-                            <td></td>
+                            <td>
+                                <i class="fas fa-solid fa-pen-to-square text-primary"></i>
+                                <i class="fas fa-solid fa-trash text-danger"></i>
+                            </td>
                           </tr>
                           <tr>
                             <td scope="row">Atún</td>
                             <td>Viveres</td>
                             <td>Barranquilla</td>
                             <td>7500</td>
-                            <td></td>
+                            <td>
+                                <i class="fas fa-solid fa-pen-to-square text-primary"></i>
+                                <i class="fas fa-solid fa-trash text-danger"></i>
+                            </td>
                           </tr>
                         </tbody>
                       </table>

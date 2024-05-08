@@ -9,6 +9,4 @@ export const routes: Routes = [
     { path: 'crear-producto', component: CrearProductoComponent},
     { path: 'editar-producto/:id', component: CrearProductoComponent},
     { path: '**', redirectTo: '', pathMatch: 'full'}
-
-
 ];
